@@ -1,4 +1,4 @@
-﻿using AppMvcBasica.Models;
+﻿using MinhaAppMvcCompleta.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,6 +18,7 @@ namespace DevIO.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
+            //trecho comentado pois não funcionou nessa versão do .NET
             //foreach(var property in modelBuilder.Model.GetEntityTypes()
             //    .SelectMany(e => e.GetProperties()
             //    .Where(p => p.ClrType == typeof(string))))

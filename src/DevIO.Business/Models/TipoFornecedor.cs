@@ -1,4 +1,4 @@
-﻿namespace AppMvcBasica.Models
+﻿namespace MinhaAppMvcCompleta.Models
 {
     public enum TipoFornecedor
     {

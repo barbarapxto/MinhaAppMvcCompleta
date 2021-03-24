@@ -1,4 +1,4 @@
-﻿using AppMvcBasica.Models;
+﻿using MinhaAppMvcCompleta.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -12,6 +12,7 @@ namespace DevIO.Data.Mappings
         public void Configure(EntityTypeBuilder<Fornecedor> builder)
         {
             builder.HasKey(p => p.Id);
+
             builder.Property(p => p.Nome)
                 .IsRequired()
                 .HasColumnType("varchar(200)");
